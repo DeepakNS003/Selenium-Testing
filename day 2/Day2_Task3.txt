@@ -1,0 +1,123 @@
+Contains Xpath:
+//tagName[contains(@attribute,'value)
+
+//input[@name="search"]
+
+<p class="classname" id="idname">paragraph</p>
+<p> ->tagName;
+class,id -> attribute,
+idname,classname->values
+Locators in selenium:used to locate elements for testing by selenium
+
+
+
+
+Selenium Commands (to search for specific Web Elements)
+
+=>By Xpath
+eg: //tagName[contains(@attribute,'value)
+
+=>By Index
+eg:  driver.switchTo().frame(1);
+
+=>By Class
+eg:  driver.findElement(By.className(String class));
+
+=>By Id
+eg:  driver.findElement(By.id(String id));
+
+=>By Name
+eg: driver.findElemet(By.name(String name));
+
+=>By TagName
+eg: driver.findElement(By.tagName(String tagName));
+
+=>Link Text
+ driver.findElement(By.linkText(String linkText))
+=>Partial Link text driver
+
+
+
+
+Selenium Wait Commands: 
+            enables the QAs to pause the execution of test cases for a specified length time and helps in observing and troubleshooting errors.
+
+a. Implicit Wait Commands: 
+            instructs the WebDriver to wait for a specified time before throwing an exception.
+
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+b. Explicit Wait Commands: 
+            instructs the WebDriver to wait until a particular condition occurs before executing further scripts.
+
+eg: WebDriverWait wait = new WebDriverWait(driver,30);
+
+
+
+
+<a href="https://demo.opencart.com/index.php?
+route=account/returns|add&amp;language=en-gb">Returns</a>
+
+div#search
+div.row
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.2</version>
+</dependency>
+
+
+
+
+Selenium Browser Commands:
+
+a. getCurrentUrl() – This command returns the URL of the currently active web page in the browser.
+
+b. getPageSource() – This command helps in getting the entire HTML source code of the open web page.
+
+c. getTitle() – This command can be used for displaying the title of the current web page.
+
+
+
+
+Navigational Selenium Commands:
+
+1. Navigate To Commands: (navigates to a particular webpage URL)
+
+  a. Using get method:
+  driver.get (“https://www.browserstack.com”) ;
+
+  b. Using the navigate method:
+  driver.navigate().to("https://www.browserstack.com/selenium");
+
+
+2. Forward Command:(navigates the browser forward by one page recorded in the browsing history)
+
+driver.navigate().forward();
+
+
+3. Back Command:(instructs the browser to redirect to the immediate previous webpage)
+
+driver.navigate().back();
+
+
+4. The Refresh Command:(instructs the browser to reload or refresh the current web page)
+
+driver.navigate().refresh();
+
+
+
+
+Ways To Switch Iframe: 
+         driver's switchTo().frame command is used in 3 ways to switch between Iframes
+
+a.  switchTo.frame(int frameNumber):
+              Pass the frame index and driver will switch to that frame.
+
+b. switchTo.frame(string frameName or FrameId):
+              Pass the frame element Name or Id and driver will switch to that frame.
+
+c. switchTo.frame(WebElement frameElement):
+              Pass the frame web element and driver will switch to that frame.

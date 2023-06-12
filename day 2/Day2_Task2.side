@@ -1,0 +1,458 @@
+{
+  "id": "e2252db8-38ee-4b3f-8a01-0c97a276fb6d",
+  "version": "2.0",
+  "name": "sampleproject2",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "7fcfa723-8507-4663-8930-d1397dd2ce99",
+    "name": "FacebookManualAutomation",
+    "commands": [{
+      "id": "bab851ea-4f3b-4fe8-b3e1-7b7073eeb6fc",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa4c37a5-47cb-435b-8c51-e8ea200b21ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9489c98d-e989-471c-8b46-1c1d4911a95b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4eace4dd-f687-4276-8561-cb2145d8a776",
+    "name": "FacebookRework",
+    "commands": [{
+      "id": "6d0cd2e6-352c-4655-bacc-872173074d62",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "426f1214-f1ef-4ddb-b6d1-3e2cc5adab7d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1032x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d96b543c-2885-4671-ad2f-7e3d5091f222",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_zl']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "727821tuad003@skct.edu.in"
+    }, {
+      "id": "e9dd6ca0-c29e-4143-8a79-16ae897cc8bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9d7410-d76c-45f9-a91a-2f4e2af17e07",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "23456789"
+    }, {
+      "id": "9fd3fb37-5cc7-44d3-ab7b-8fd83d33e7ec",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0b627290-b69f-45d6-a031-aec8f307ef5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a36fa8-c035-4b9f-ad70-3c2a6677f258",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c120f1-7761-4ac6-b8eb-c7e2537c73a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email_container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "011d3048-bb08-4a1b-830e-31c62e024df4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_4-u5",
+      "targets": [
+        ["css=.\\_4-u5", "css:finder"],
+        ["xpath=//div[@id='content']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5caa99d3-d0b7-42c1-8b59-f4d83945bc2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_9ay6",
+      "targets": [
+        ["css=.\\_9ay6", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/7uzGoFuHgaC.png')]", "xpath:img"],
+        ["xpath=//div[@id='email_container']/div/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab69bf4e-024c-4658-a673-e96de1c08d7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clearfix:nth-child(12)",
+      "targets": [
+        ["css=.clearfix:nth-child(12)", "css:finder"],
+        ["xpath=//div[@id='loginform']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc32cd88-25a5-4e09-8505-fed699d08a93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_97w4", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//div[@id='login_link']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/recover/initiate/?ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9091cdae-518e-4b31-a6c9-83e129fb3453",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email_container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9693487-2611-413a-b471-eddbd4aeb211",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "e2e17afd-ef5e-4820-aaef-edefaea7a4a3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "24ae74fa-4ff5-4d12-a500-ef8dbb62c640",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_97w4", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//div[@id='login_link']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/recover/initiate/?ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9045eca2-35eb-4037-b02f-9b88cfa33d8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c17a542-0d4f-424e-86b9-0fbf55db9408",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "727821tuad020@skct.edu.in"
+    }, {
+      "id": "2b679a01-0059-47a9-b868-5c92e849e3cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cancel",
+      "targets": [
+        ["linkText=Cancel", "linkText"],
+        ["css=.\\_9nq1", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel')]", "xpath:link"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login.php')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4400f8cb-316c-4248-b960-9beec45d33b8",
+    "name": "OpenCartAutomation",
+    "commands": [{
+      "id": "5e55a30f-e526-483a-96ec-cdf3e613247d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d09ca74-8b5f-4e3f-acb5-1acfd73c1d03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1032x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e13ac60b-68ba-4265-855b-f789680462b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=test 5 (0)",
+      "targets": [
+        ["linkText=test 5 (0)", "linkText"],
+        ["css=.list-unstyled:nth-child(3) > li:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'test 5 (0)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[8]/div/div/ul[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=34_37')]", "xpath:href"],
+        ["xpath=//ul[3]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'test 5 (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01990d42-b16e-4d96-87ea-b6ba74ae9b90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) > form .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) > form .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='MacBook']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7710c00-ff0c-4745-a65c-77c095d37faa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > a:nth-child(1) > .img-thumbnail",
+      "targets": [
+        ["css=div:nth-child(2) > a:nth-child(1) > .img-thumbnail", "css:finder"],
+        ["xpath=(//img[@alt='MacBook'])[2]", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd408512-f4ab-4786-aac8-7a0dc050f859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mfp-arrow-right",
+      "targets": [
+        ["css=.mfp-arrow-right", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97cede13-089f-43b1-a22f-6f49018f6e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mfp-arrow-right",
+      "targets": [
+        ["css=.mfp-arrow-right", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced68c72-4b7a-45ae-94ee-1b4f5ba2c761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mfp-arrow-right",
+      "targets": [
+        ["css=.mfp-arrow-right", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b0f72f6-910c-4fef-bc1f-de5008b3c019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mfp-close",
+      "targets": [
+        ["css=.mfp-close", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb8db9d-3503-4818-a812-3415892f6b1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//form[@id='form-product']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ddec6fe-6b59-4fd5-acc4-6de6128aab75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-inverse",
+      "targets": [
+        ["css=.btn-inverse", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='header-cart']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' 0 item(s) - $0.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "413e6631-b2ca-4924-b8c8-f922929f241b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-exchange-alt",
+      "targets": [
+        ["css=.fa-exchange-alt", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae77d11-be34-4239-9599-d99fbcfa3da1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-exchange-alt",
+      "targets": [
+        ["css=.fa-exchange-alt", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6135cded-9845-4cd6-b494-61402d06abbf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7fcfa723-8507-4663-8930-d1397dd2ce99"]
+  }],
+  "urls": ["https://www.facebook.com/", "https://demo.opencart.com/"],
+  "plugins": []
+}
